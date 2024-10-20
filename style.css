@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .contanier{
+    background-color: #090979;
+    width: 100%;
+} */
+ body{
+    background-color: #090979;
+ }
+ .contanier{
+    float: right;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 0;
+
+ }
+header{
+    background-color:  #090979 ;
+    z-index: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+header > .logo{
+    display: flex;
+    height: 50px;
+    margin-top: 20px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.btn1{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    height: 50px;
+}
+.btn1:hover{
+    background-color: white;
+    color: orangered;
+    transition: 1s ease-in ;
+
+}
+li:hover{
+    transition: all .3s ease-out 0s;
+    color: orange;
+}
+.content{
+margin-top: 100px;
+width: 1100px;
+margin-top: 20px;
+color: white;
+margin-left: 80px;
+width: 410px;
+}
+.contanier > p{
+    font-size: xx-large;
+    font-size: 34px;
+}
+.content > h1{
+    font-size: 55px;;
+
+
+}
+.bt2:hover{
+    background-color: bisque;
+    color: orangered;
+    transition-timing-function: linear;
+}
+.content > .bt2{
+    padding: 10px;
+    border-radius: 100px;
+    background-color: transparent;
+    width: 120px;
+    margin-top: 12px;
+    background-color: white;
+}
+.fs-4-text-danger{
+    color: rgb(231, 123, 80);
+    display: flex;
+    justify-content: center;
+}
+.bt2 :hover{
+background-color: bisque;
+color: orangered;
+}
+.services{
+
+    background-color: white;
+}
+.over-services{
+    
+    background-color: white;
+    margin-top: 380px;
+    height: 550px;
+    /* display: flex; */
+    justify-content: center;
+}
+.imp-h1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    box-shadow: 0px 0px 50px lightgray;
+};
+ .content-cards{
+    font-size: medium;
+ }
+.img{
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 20px lightgray;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+.img > img{
+    width: 80px;
+    height: 70px;
+    margin-top: 8px;
+}
+.fs-4{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.seacond-main-contanier{
+height: 550px;
+width: 100%;
+background-color: rgb(231, 243, 243);
+margin-top: 350px;
+}
+.section-2-content{
+    background-color: white;
+    width: 300px;
+    border-radius: 12px;
+    position: relative;
+    top: -300px;
+    left: 300px;
+    height: 90px;
+}
+.section-2-content > p{
+    margin-left: 15px;
+}
+.img2{
+    display: flex;
+}
+.con{
+    margin-left: 22%;
+    margin-top: 50px;
+    width: 500px;
+}
+.con >  img{
+    display: flex;
+    float: left;
+}
+.btn{
+    background-color:pink;
+    color: white;
+    padding: 20px;
+    border-radius:50px;
+    width: 200px;
+    margin-top: -10px;
+}
+.threerd-contanier{
+    height: 500px;
+    background-color: #090979;
+    margin-top: 10px;
+}
+.d-f{
+    color: white;
+    float: left;
+}
+.thired-contanier-content{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.right{
+    float: right;
+    margin-right: 200px;
+    font-size: x-large;
+    color: white;
+}
+.cardss{
+    width: 300px;
+    height: 220px;
+    border: 2px solid blue;
+    margin-top: px;
+    float: left;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    background-color: #090979;
+}
+.cardss > h1{
+    margin-left: 10px;
+    color: white;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+.conm2{
+    margin-top: 50px;
+    height: 300px;
+    float: left;
+}
+.cardss > img{
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+.h2{
+    color: white;
+    margin-left: 50px;
+}
+.preview{
+    margin-left: 55px;
+}
+.h11{
+    margin-left: 60px;
+}
+.theme{
+    margin-left: 50px;
+}
+.end-div{
+margin-top: 200px;
+margin-left: 30%;
+color: white;    
+}
+.it-kol{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.btnone{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 2ps solid blue;
+    color: rgb(0, 0, 0);
+    height: 50px;
+}
+.btnone:hover{
+    background-color: rgb(247, 25, 25);
+    color: rgb(255, 255, 255);
+    transition: 1s ease-in ;
+}
+.number1{
+    float: left;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.number2{
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.number3{
+    float: right;
+    margin-right: 219px;
+    margin-top: 50px;
+}
+.Stuffs{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid gray;
+}
+.car{
+display: inline-block;
+justify-content: space-evenly;
+margin-left: 50px;
+margin-top: 50px;
+}
+.card-img{
+    z-index: -100;
+}
+.hthree{
+    color: black;
+
+}
+.vedio{
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1661573729122-6619f62ef0ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fG1lZXRpbmd8ZW58MHx8MHx8fDA%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+}
+.notification{
+float: left;
+margin-right: 20px;
+margin-left: 10px;
+margin-top: 10px;
+}
+body{
+    background-color: #090979;
+}
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.footer-logo > img{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.r ,  .s , .t ,  .u{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.li{
+    color: black;
+}
+input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 100px;
+    background-image: url("arrow_right_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50px;
+}
